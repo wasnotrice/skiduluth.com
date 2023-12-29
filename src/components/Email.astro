@@ -1,0 +1,19 @@
+---
+type Props = {
+  address: string;
+  label: string | undefined;
+};
+
+const { address, label } = Astro.props;
+---
+
+<span>
+  {label && <span>{label}</span>}
+  <a href={`mailto:${address}`}>{address}</a>
+</span>
+<style>
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+</style>

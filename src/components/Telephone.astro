@@ -1,0 +1,19 @@
+---
+type Props = {
+  number: string;
+  label: string | undefined;
+};
+
+const { number, label } = Astro.props;
+---
+
+<span>
+  {label && <span>{label}</span>}
+  <a href={`tel:${number}`}>{number}</a>
+</span>
+<style>
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+</style>
