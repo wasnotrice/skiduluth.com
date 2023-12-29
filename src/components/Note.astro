@@ -1,0 +1,43 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+type Props = HTMLAttributes<"div"> & {
+  type: "note" | "info";
+  marker: string | undefined;
+  id: string | undefined;
+};
+
+const { marker, id, type, class: className, ...props } = Astro.props;
+
+let noteType = type == "note" ? "note" : type == "info" ? "info" : "info";
+---
+
+<div class=`any-note ${noteType}` id={id}>
+  {marker && <span>{marker}</span>}<slot />
+</div>
+
+<style>
+  :root {
+    --info: var(--blue);
+    --warn: var(--yellow);
+    --info-gradient: rgba(var(--info), 30%), rgba(var(--info), 20%);
+    --warn-gradient: rgba(var(--warn), 30%), rgba(var(--warn), 20%);
+  }
+  .any-note {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 4px;
+  }
+  .note {
+    font-size: 0.9em;
+    font-style: italic;
+    color: rgb(var(--on-yellow));
+    background: linear-gradient(var(--warn-gradient)) no-repeat;
+  }
+  .info {
+    color: rgb(var(--on-blue));
+    background: linear-gradient(var(--gray-gradient-half)) no-repeat;
+    background: linear-gradient(var(--info-gradient)) no-repeat;
+  }
+</style>
