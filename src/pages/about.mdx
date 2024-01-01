@@ -4,6 +4,7 @@ title: About Snowflake
 ---
 
 import { Image } from "astro:assets";
+import { SNOWFLAKE_TELEPHONE } from "../consts"
 import Telephone from "../components/Telephone.astro"; 
 import georgeJane from "../media/george_jane.jpg";
 import trail from "../media/trail_01.jpg";
@@ -22,7 +23,7 @@ George managed the operation on a shoestring budget with humor and good will.
 
 ## Contact Us
 
-Snowflake Telephone Number: <Telephone number="218-726-1550" /> (Trail Report and/or leave a message)<br />
+Snowflake Telephone Number: <Telephone number={SNOWFLAKE_TELEPHONE} /> (Trail Report and/or leave a message)<br />
 Email: snowflakeduluth@gmail.com
 
 John Graham (Manager): <Telephone number="218-355-1271" /><br />

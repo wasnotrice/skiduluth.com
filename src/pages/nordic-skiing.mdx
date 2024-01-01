@@ -4,13 +4,14 @@ title: Nordic Skiing
 ---
 
 import { Image } from "astro:assets";
+import { SNOWFLAKE_TELEPHONE } from "../consts"
 import Telephone from "../components/Telephone.astro"
 import skatingSundown from "../media/skating-sundown.jpg"
 import happySkier from "../media/happy-skier.jpg"
 
 We update trail status whenever we groom and when conditions change between groomings. The most timely info is posted in the following order:
 
-1. Chalet Phone Message: <Telephone number="218-726-1550" />
+1. Chalet Phone Message: <Telephone number={SNOWFLAKE_TELEPHONE} />
 2. Instagram: [@snowflakeduluth](https://www.instagram.com/snowflakeduluth/)
 3. [Skinnyski.com](http://skinnyski.com/) (NE MN)
 
@@ -48,9 +49,9 @@ Full package (skis, boots, poles): $10 per day
 
 Improve your skiing fun with Private or Group lessons
 
-Call <Telephone number="218-726-1550" /><br/>
+Call <Telephone number={SNOWFLAKE_TELEPHONE} /><br/>
 Skating or Classic
 
-For accurate conditions, please refer to Trail Reports on [SkinnySki](http://www.skinnyski.com/) or the [Weather Report](http://www.weather.com/weather/local/55811) or call <Telephone number="218-726-1550" />
+For accurate conditions, please refer to Trail Reports on [SkinnySki](https://www.skinnyski.com/) or the [Weather Report](https://weather.com/weather/today/l/65587d41b383b105815fb1ce690e8c427f7f7c561ffd6671540f875597ba0078) or call <Telephone number={SNOWFLAKE_TELEPHONE} />
 
 <Image src={happySkier} alt="A happy skier" />

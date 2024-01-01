@@ -1,4 +1,5 @@
 ---
+import { SNOWFLAKE_TELEPHONE } from "../consts";
 import Email from "./Email.astro";
 import Telephone from "./Telephone.astro";
 
@@ -17,7 +18,7 @@ const today = new Date();
          Duluth, Minnesota 55811
       </div>
       <div>
-        <div><Telephone number="218-726-1550" label="phone:" /></div>
+        <div><Telephone number={SNOWFLAKE_TELEPHONE} label="phone:" /></div>
         <div><Email address="snowflakeduluth@gmail.com" label="email:" /></div>
       </div>
     </address>
