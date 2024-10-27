@@ -2,6 +2,7 @@
 title: 'Revised Dog Policy, Revision #2'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Dec 15 2023'
+heroImage: '/blog-placeholder-3.jpg'
 ---
 
 We have received feedback, both pro and con, regarding the “New Dog Policy.” We appreciate and have read and considered all commentary.
