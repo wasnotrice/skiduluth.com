@@ -1,12 +1,21 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
-import svelte from '@astrojs/svelte';
+import svelte from "@astrojs/svelte";
 import sitemap from "@astrojs/sitemap";
+
+import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://skiduluth.com",
-  integrations: [mdx(), svelte(), sitemap()],
+  integrations: [
+    mdx(),
+    svelte(),
+    sitemap(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
+  ],
   // redirects: {
   //   "/?p=11": "/ski-with-your-dogs/",
   //   "/?p=13": "/tent-camping/",
