@@ -1,10 +1,16 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
-import { SITE_TITLE } from "../consts";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 ---
 
 <header>
-  <h2><a href="/">{SITE_TITLE}</a></h2>
+
+  <div class="title">
+    <a href="/">
+      <h2>{SITE_TITLE}</h2>
+      <div>{SITE_DESCRIPTION}</div>
+    </a>
+  </div>
 
   <!-- Hamburger icon -->
   <input class="side-menu" type="checkbox" id="side-menu" />
@@ -107,16 +113,24 @@ import { SITE_TITLE } from "../consts";
     --nav-shadow: rgba(var(--black), 5%);
     --nav-menu-background: #eee;
   }
+
   h2 {
     margin: 0;
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1;
     padding: auto;
   }
 
-  h2 a,
-  h2 a.active {
+  .title a,
+  .title a.active {
     text-decoration: none;
     color: unset;
+  }
+
+  .title div {
+     font-size: 0.75em;
+     font-weight: 100;
   }
 
   /* nav menu styling */
@@ -146,6 +160,8 @@ import { SITE_TITLE } from "../consts";
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s ease-out;
+    font-size: 1rem;
+    line-height: 1;
   }
 
   .internal-links {
@@ -230,15 +246,6 @@ import { SITE_TITLE } from "../consts";
   /* Responsiveness */
 
   @media (min-width: 768px) {
-    .social-links {
-      display: block;
-    }
-
-    .social-links,
-    .social-links a {
-      display: flex;
-    }
-
     nav {
       max-height: none;
       position: relative;
@@ -278,4 +285,17 @@ import { SITE_TITLE } from "../consts";
       display: none;
     }
   }
+
+  @media (min-width: 1024px) {
+    .social-links {
+      display: block;
+    }
+
+    .social-links,
+    .social-links a {
+      display: flex;
+    }
+  }
+
+
 </style>
