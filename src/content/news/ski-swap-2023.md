@@ -1,8 +1,7 @@
 ---
-title: 'Snowflake Ski Swap 2023'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Nov 7 2023'
-heroImage: '/blog-placeholder-2.jpg'
+title: "Snowflake Ski Swap 2023"
+description: "Lorem ipsum dolor sit amet"
+pubDate: "Nov 7 2023"
 ---
 
 The Snowflake Ski Swap will happen on Saturday 11 November, 8am-Noon

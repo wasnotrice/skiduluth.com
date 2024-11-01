@@ -2,7 +2,6 @@
 title: "Pre-Season Update 2024/25"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Nov 1 2024"
-heroImage: "/blog-placeholder-2.jpg"
 ---
 
 Hello Skiers, and Welcome November… Winter is Coming!!!
