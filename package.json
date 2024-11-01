@@ -17,7 +17,11 @@
     "@astrojs/svelte": "^6.0.0-beta.1",
     "@astrojs/tailwind": "^5.1.2",
     "astro": "^5.0.0-beta.5",
+    "embla-carousel-autoplay": "^8.3.1",
+    "embla-carousel-fade": "^8.3.1",
     "svelte": "^5.0.0-next.190",
+    "tailwind-merge": "^2.5.4",
+    "tailwind-variants": "^0.2.1",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.3.3"
   },
