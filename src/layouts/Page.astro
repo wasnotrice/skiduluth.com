@@ -19,11 +19,6 @@ const { title, description, heroImage } = frontmatter;
   <head>
     <BaseHead title={title} description={description} />
     <style>
-      main {
-        width: calc(100% - 2em);
-        max-width: 100%;
-        margin: 0;
-      }
       .hero-image {
         width: 100%;
       }
@@ -32,22 +27,6 @@ const { title, description, heroImage } = frontmatter;
         margin: 0 auto;
         border-radius: 12px;
         box-shadow: var(--box-shadow);
-      }
-      .prose {
-        width: 720px;
-        max-width: calc(100% - 2em);
-        margin: auto;
-        padding: 1em;
-        color: rgb(var(--gray-dark));
-      }
-      .title {
-        margin-bottom: 1em;
-        padding: 1em 0;
-        text-align: center;
-        line-height: 1;
-      }
-      .title h1 {
-        margin: 0 0 0.5em 0;
       }
       .date {
         margin-bottom: 0.5em;
@@ -61,7 +40,7 @@ const { title, description, heroImage } = frontmatter;
 
   <body>
     <Header />
-    <main>
+    <main class="max-w-screen md:max-w-screen-md mx-auto">
       <article>
         <div class="hero-image">
           {
@@ -70,14 +49,12 @@ const { title, description, heroImage } = frontmatter;
             )
           }
         </div>
-        <div class="prose">
-          <div class="title">
+        <Prose>
+          <div class="text-center mb-8">
             <h1>{title}</h1>
           </div>
-          <Prose>
-            <slot />
-          </Prose>
-        </div>
+          <slot />
+        </Prose>
       </article>
     </main>
     <Footer />
