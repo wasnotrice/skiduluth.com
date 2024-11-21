@@ -6,7 +6,7 @@ pubDate: "Nov 1 2024"
 
 Hello Skiers, and Welcome November… Winter is Coming!!!
 
-The 2024/25 Season Membership form is now available for download at our website ((skiduluth.com)[skiduluth.com]). Our prices will remain the same as last season and if you submit the form and payment by the end of November, you will reap our substantial “Early Bird Price” savings. Membership forms are also available at the chalet and may be returned by mail, or placed in the payment box at the chalet door. Your membership is active as soon as you submit the form and payment.
+The [2024/25 Season Membership form](/season-pass/2024-25-DNSC-membership.pdf) is now available for download. Our prices will remain the same as last season and if you submit the form and payment by the end of November, you will reap our substantial “Early Bird Price” savings. Membership forms are also available at the chalet and may be returned by mail, or placed in the payment box at the chalet door. Your membership is active as soon as you submit the form and payment.
 
 The 2023/24 season was bizarre/weird/awful, take your choice. Snow came late; trails opened on 6 January and were un-skiable by 9 February. We waited six weeks for groomable snow, and finally got the 22” storm of 24 March. The 6K was groomed and open on 25 March, and our last grooming was on 5 April. The one bright-spot was that we did complete KidSki 2024 during January-February.
 
