@@ -19,4 +19,4 @@ The “New Dog Policy,” Revision #2 is as follows:
 
 Bear in mind that the leash/harness rule was a response to loose dogs interfering with (and knocking-down) other skiers. The compromise is that Member Dog Owners control their dogs on the trail and, if you encounter a Member Dog Owner who is not controlling their dog, educate them.
 
-THINK SNOW**\*\***
+THINK SNOW \*\*\*
