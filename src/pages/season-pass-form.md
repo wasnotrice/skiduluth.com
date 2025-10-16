@@ -3,7 +3,7 @@ layout: ../layouts/Page.astro
 title: Season Pass
 ---
 
-Download Season Pass Application here: [2024-25 Season Pass Application PDF](/season-pass/2024-25-DNSC-membership.pdf)
+Download Season Pass Application here: [2025-26 Season Pass Application PDF](/season-pass/2025-26-DNSC-membership.pdf)
 
 Exciting Announcement: In addition to being able to mail in your membership form and check, Snowflake has an [online membership sign-up](https://runsignup.com/MemberOrg/SnowflakeNordicSkiCenter) option this year!!! We are using RunSignUp, the same platform Duluth XC Ski Club and the American Birkebeiner Ski Foundation use, so be sure to log-in to your RunSignUp account first to make the process super simple!
 
