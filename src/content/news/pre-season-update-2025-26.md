@@ -6,7 +6,7 @@ pubDate: "Oct 10 2025"
 
 Hello Skiers,,,… Winter is Coming!!!
 
-The <ins>2025/26 Season Membership form</ins> will be available for download at our website ( skiduluth.com ) on 15 October. Prices remain the same as last season and, if you submit the form and payment by the end of November, you will reap our substantial “Early Bird Price” savings. Membership forms will also be available at the chalet and may be returned by mail, or placed in the payment box at the chalet door. Your membership is active as soon as you submit the form and payment.
+The [2025/26 Season Membership form](/season-pass/2025-26-DNSC-membership.pdf) will be available for download at our website (skiduluth.com) on 15 October. Prices remain the same as last season and, if you submit the form and payment by the end of November, you will reap our substantial “Early Bird Price” savings. Membership forms will also be available at the chalet and may be returned by mail, or placed in the payment box at the chalet door. Your membership is active as soon as you submit the form and payment.
 
 Last season we experimented with on-line Membership sign-up, using “Run Sign-Up.” We’ve had a few growing pains, a big one being that folks who used it last year have already received automated emails for membership renewal, but no 2025/26 form to do so. Run Sign-up presumed that memberships go 1 October - 30 September. Our actual membership year is 1 November - 31 October, to give members access to Fall camping. We’ll fix that glitch, and make on-line Membership available by 1 November.
 
