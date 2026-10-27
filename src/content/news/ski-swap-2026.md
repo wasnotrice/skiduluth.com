@@ -4,8 +4,6 @@ description: "Lorem ipsum dolor sit amet"
 pubDate: "Oct 27 2026"
 ---
 
-SNOWFLAKE SKI SWAP DATE CHANGE!
-
 DUE TO A SCHEDULING CONFLICT THE SKI SWAP HAS BEEN MOVED TO:
 
 ### SATURDAY 14 NOV  9am-Noon
